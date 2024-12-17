@@ -1,0 +1,312 @@
+body{
+    background-color: black;
+    overflow: hidden;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: italic;
+    font-size: 20px;
+    
+}
+.topTri{
+    position: relative;
+    width: 0;
+    height: 0;
+    top: 3px;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-bottom: 9px solid rgb(16, 2, 2);
+    display: flex;
+
+
+
+}
+
+.bottomTri{
+    position: relative;
+    bottom: 3px;
+    width: 0;
+    height: 0;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 9px solid rgb(15, 2, 2);
+
+
+
+
+
+}
+
+
+
+@keyframes starsAnima {
+0%{
+top: 0px;
+}
+100%{
+top: 600px;
+}
+}
+
+
+
+@keyframes blink {
+0%{
+    opacity: 1;
+}
+100%{
+    opacity: 0;
+}
+    
+}
+
+.paused{
+    animation-play-state: paused !important;
+}
+
+.star{
+background: transparent;
+width:fit-content;
+height: fit-content;
+
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+position: relative;
+animation-name: starsAnima;
+animation:starsAnima 37s infinite,blink 0.5s linear infinite;
+
+}
+
+.star2{
+background: transparent;
+width:fit-content;
+height: fit-content;
+
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+position: relative;
+animation:starsAnima 22s infinite,blink 0.5s linear infinite;
+
+}
+
+.star3{
+    background: transparent;
+    width:fit-content;
+    height: fit-content;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    animation:starsAnima 40s infinite,blink 0.5s linear infinite;
+
+}
+.star4{
+background: transparent;
+width:fit-content;
+height: fit-content;
+
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+position: relative;
+animation:starsAnima 12s infinite,blink 0.5s linear infinite;
+
+}
+.star5{
+background: transparent;
+width:fit-content;
+height: fit-content;
+
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+position: relative;
+animation:starsAnima 20s infinite,blink 0.5s linear infinite;
+
+}
+
+.star6{
+background: transparent;
+width:fit-content;
+height: fit-content;
+
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+position: relative;
+animation:starsAnima 7.5s infinite,blink 0.5s linear infinite;
+
+}
+.star7{
+background: transparent;
+width:fit-content;
+height: fit-content;
+
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+position: relative;
+animation:starsAnima 10s infinite,blink 0.5s linear infinite;
+
+}
+.star8{
+background: transparent;
+width:fit-content;
+height: fit-content;
+
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+position: relative;
+animation:starsAnima 15s infinite,blink 0.5s linear infinite;
+
+}
+.star9{
+background: transparent;
+width:fit-content;
+height: fit-content;
+
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+position: relative;
+animation:starsAnima 17s infinite,blink 0.5s linear infinite;
+
+}
+.star10{
+background: transparent;
+width:fit-content;
+height: fit-content;
+
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+position: relative;
+animation:starsAnima 35s infinite,blink 0.5s linear infinite;
+
+}
+.starcontaier{
+display: flex;
+justify-content: space-between;
+
+}
+
+.inputTxt{
+    height: 20px;
+    width: 280px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: italic;
+
+    font-size: 20px;
+    padding: 5px;
+    border-radius: 10px;
+}
+.palinContainer{
+    height: fit-content;
+    width: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: transparent;
+    flex-direction: column;
+    box-shadow: 0 3px 4px 2px white;
+    border-radius: 10px;
+    padding: 2px;
+}
+.output{
+    height: 20px;
+    width: 280px;
+    background-color: white;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    color: black;
+    padding: 5px;
+    border-radius: 10px;
+    text-align: center;
+}
+h4{
+    color: white;
+}
+
+
+.colorBox{
+    width: 280px;
+    height: 280px;
+   
+}
+
+.colorContainer{
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    height: 15rem;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 3px 4px 2px white;
+    background-color: black;
+    padding: 14px;
+    margin-top: 1rem;
+
+
+}
+.palinColorcontainer{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    justify-content: center;
+    align-items: center;
+}
+
+.palinButton{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: italic;
+     background-color: green;
+    font-size: 20px;
+    padding: 5px;
+    border-radius: 10px;
+    box-shadow: 0 3px 4px 2px white;
+    margin: 1rem;
+    transition: all 0.1s linear;
+
+}
+.palinButton:hover{
+    box-shadow: 0 1px 2px 1px white;
+    cursor: pointer;
+
+}
+
+
+
+.colorButton{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: italic;
+     background-color: rgb(10, 114, 219);
+    font-size: 20px;
+    padding: 5px;
+    border-radius: 10px;
+    box-shadow: 0 3px 4px 2px white;
+    transition: all 0.1s linear;
+    margin-top:0.5rem;
+    ;
+
+}
+.colorButton:hover{
+    box-shadow: 0 1px 2px 1px white;
+    cursor: pointer;
+
+}
